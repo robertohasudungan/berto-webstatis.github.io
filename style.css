@@ -1,0 +1,36 @@
+.navbar {
+    background-color: #4D455D;
+    padding: 20px;
+    border-radius: 0;
+    border: none;
+}
+.nav-link {
+    color: #fff !important;
+    font-size: 18px;
+    margin-right: 20px;
+}
+.nav-link:hover {
+    color: #fff !important;
+    text-decoration: underline;
+}
+
+#video-carousel .carousel-item {
+    height: 0;
+    padding-bottom: 56.25%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  #video-carousel .carousel-item iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  @media (max-width: 767px) {
+    #video-carousel .carousel-item {
+      padding-bottom: 75%;
+    }
+  }
